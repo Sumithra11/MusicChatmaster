@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="chat-log"></div>
+    <input type="text" id="user-input">
+    <button id="send-btn">Send</button>
+
+    <script>
+        $(document).ready(function() {
+            $("#send-btn").on("click", function() {
+                var userInput = $("#user-input").val().trim();
+                if (userInput !== "") {
+                    $.ajax({
+                        url: "/process_input",
+                        type: "POST",
+                        dataType: "json",
+                        contentType: "application/json",
+                        data: JSON.stringify({ "user_input": userInput }),
+                        success: function(response) {
+                            var chatLog = $("#chat-log");
+                            chatLog.append("<p>You: " + userInput + "</p>");
+                            chatLog.append("<p>Bot: " + response.message + "</p>");
+                            chatLog.scrollTop(chatLog[0].scrollHeight);
+                            $("#user-input").val("");
+                        },
+                        error: function(xhr, status, error) {
+                            console.log("Error:", error);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

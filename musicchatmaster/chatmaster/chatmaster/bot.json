@@ -1,0 +1,153 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  { 
+    "response_type": "question",
+    "user_input": ["Can", "you", "recommend", "some", "upbeat", "pop", "songs?"],
+    "bot_response": "Sure! Here are some upbeat pop songs you might enjoy.",
+    "required_words": ["recommend", "upbeat", "pop", "songs"]
+  },
+  { 
+    "response_type": "question",
+    "user_input": ["I'm", "in", "the", "mood", "for", "some", "rock", "music."],
+    "bot_response": "Great! Let me suggest some awesome rock songs for you.",
+    "required_words": ["rock", "music"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Do", "you", "have", "any", "recommendations", "for", "chill", "jazz", "tracks?"],
+    "bot_response": "Absolutely! Here are some chill jazz tracks for you.",
+    "required_words": ["recommendations", "chill", "jazz", "tracks"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "love", "electronic", "dance", "music.", "Any", "suggestions?"],
+    "bot_response": "Of course! Here are some fantastic electronic dance music recommendations for you.",
+    "required_words": ["love", "electronic", "dance", "music", "suggestions"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Can", "you", "recommend", "some", "classic", "rock", "songs?"],
+    "bot_response": "Certainly! Here are some classic rock songs you might enjoy.",
+    "required_words": ["recommend", "classic", "rock", "songs"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["What", "are", "some", "popular", "R&B", "songs?"],
+    "bot_response": "Certainly! Here are some popular R&B songs you might like.",
+    "required_words": ["popular", "R&B", "songs"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Do", "you", "have", "any", "recommendations", "for", "country", "songs?"],
+    "bot_response": "Sure thing! Here are some great country songs you might enjoy.",
+    "required_words": ["recommendations", "country", "songs"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I'm", "in", "the", "mood", "for", "some", "mellow", "folk", "music."],
+    "bot_response": "Absolutely! Here are some mellow folk tracks for you.",
+    "required_words": ["mood", "mellow", "folk", "music"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Can", "you", "recommend", "some", "energetic", "pop", "songs?"],
+    "bot_response": "Certainly! Here are some energetic pop songs you might like.",
+    "required_words": ["recommend", "energetic", "pop", "songs"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "love", "classical", "music.", "Any", "recommendations?"],
+    "bot_response": "Great! Let me suggest some amazing classical music for you.",
+    "required_words": ["love", "classical", "music", "recommendations"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Do", "you", "have", "any", "suggestions", "for", "feel-good", "pop", "tracks?"],
+    "bot_response": "Absolutely! Here are some feel-good pop tracks for you.",
+    "required_words": ["suggestions", "feel-good", "pop", "tracks"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["What", "are", "some", "top", "hits", "from", "the", "80s?"],
+    "bot_response": "Sure thing! Here are some top hits from the 80s you might enjoy.",
+    "required_words": ["top", "hits", "80s"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "want", "to", "listen", "to", "some", "relaxing", "ambient", "music."],
+    "bot_response": "Certainly! Here are some relaxing ambient tracks for you.",
+    "required_words": ["relaxing", "ambient", "music"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Can", "you", "recommend", "some", "fun", "party", "tracks?"],
+    "bot_response": "Absolutely! Here are some fun party tracks for you.",
+    "required_words": ["recommend", "fun", "party", "tracks"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "love", "Latin", "music.", "Any", "suggestions?"],
+    "bot_response": "Great! Let me suggest some amazing Latin music for you.",
+    "required_words": ["love", "Latin", "music", "suggestions"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["What", "are", "some", "popular", "pop", "rock", "songs?"],
+    "bot_response": "Certainly! Here are some popular pop rock songs you might enjoy.",
+    "required_words": ["popular", "pop", "rock", "songs"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Do", "you", "have", "any", "recommendations", "for", "soulful", "R&B", "tracks?"],
+    "bot_response": "Sure thing! Here are some soulful R&B tracks for you.",
+    "required_words": ["recommendations", "soulful", "R&B", "tracks"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Can", "you", "recommend", "some", "uplifting", "pop", "songs?"],
+    "bot_response": "Certainly! Here are some uplifting pop songs you might enjoy.",
+    "required_words": ["recommend", "uplifting", "pop", "songs"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "want", "to", "discover", "new", "indie", "bands."],
+    "bot_response": "Great! Let me recommend some awesome indie bands for you.",
+    "required_words": ["discover", "new", "indie", "bands"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Can", "you", "suggest", "some", "motivating", "workout", "music?"],
+    "bot_response": "Certainly! Here are some motivating workout tracks for you.",
+    "required_words": ["suggest", "motivating", "workout", "music"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "love", "acoustic", "guitar", "music.", "Any", "recommendations?"],
+    "bot_response": "Absolutely! Let me suggest some amazing acoustic guitar tracks for you.",
+    "required_words": ["love", "acoustic", "guitar", "music", "recommendations"]
+  },
+  
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  }
+]
